@@ -14,7 +14,7 @@ Of the listed solutions, this is the only one implemented today. While many have
 
 *Lightning Networks/StrawPay*
 
-Each of these are decentralized versions of the above, designed to reduce the amount of trust needed. However, like with the above, there are often security concerns sited, such as the ability to steal other parties' funds.<sup>[3](#footnote3)</sup>
+Each of these are decentralized versions of the above, designed to reduce the amount of trust needed. However, like with the above, there are often security concerns sited, such as the ability to steal other parties' funds.<sup>[3](#footnote3)</sup> Using payment channels allows it to use much less room on the blockchain, however, leading to a higher overall transaction rate.
 
 
 Argument2 Con
