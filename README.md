@@ -8,11 +8,11 @@ The chief argument for the increase in blocksize is to raise the total throughpu
 
 ### Counter Argument1.1: Other Scaling Solutions
 
-*Off-Chain Third Parties*
+*1.1.1 Off-Chain Third Parties*
 
 Of the listed solutions, this is the only one implemented today. While many have serious security<sup>[1](#footnote1)</sup> and privacy<sup>[2](#footnote2)</sup> concerns, these would significanly cut down on block size by making the minimal number of transactions, and by condensing the number of inputs/outputs used.
 
-*Lightning Networks/StrawPay*
+*1.1.2 Lightning Networks/StrawPay*
 
 Each of these are decentralized versions of the above, designed to reduce the amount of trust needed. However, like with the above, there are often security concerns sited, such as the ability to steal other parties' funds.<sup>[3](#footnote3)</sup> Using payment channels allows it to use much less room on the blockchain, however, leading to a higher overall transaction rate.
 
