@@ -27,6 +27,8 @@ Footnotes
 =========
 
 <a name="footnote1">1</a>: CoinDesk, [http://www.coindesk.com/coinbase-security-concerns-amid-theft-reports/](http://www.coindesk.com/coinbase-security-concerns-amid-theft-reports/)
+
 <a name="footnote2">2</a>: CoinDesk, [http://www.coindesk.com/coinbase-denies-reports-data-breach-addresses-security-concerns/](http://www.coindesk.com/coinbase-denies-reports-data-breach-addresses-security-concerns/)
+
 <a name="footnote2">3</a>: Mike Hearn, [https://medium.com/@octskyward/the-capacity-cliff-586d1bf7715e#3555](https://medium.com/@octskyward/the-capacity-cliff-586d1bf7715e#3555)
 
