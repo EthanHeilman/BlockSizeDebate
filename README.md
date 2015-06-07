@@ -36,11 +36,44 @@ Because there is no current implementation of it, there is no way to be certain 
 
 This is not a very widely used argument, as it's easily solvable, but it is a hurdle to overcome.
 
-Argument2 Con
+Argument2 Con: Miners/Full Nodes Cannot Handle Expansion
 =========
 
 Text of a argument goes here.
 
+### Counter Argument 2.1: Resource Impact not immediate
+
+### Counter Argument 2.2: Several Large Miners Have Agreed To Adopt A Change
+
+*2.2.1: Several have also spoken against large changes*
+
+### Counter Argument 2.3: Moore's Law (and it's companion laws) will support this in the future
+
+### Counter Argument 2.4: Satoshi Predicted Node Centralization
+
+Argument3 Pro: The Limit Was Intended As A Temporary Measure
+=========
+
+Text of a argument goes here.
+
+### Counter Argument 3.1: The Limit Will Provide Fee Pressure
+
+Argument4 Con: Hardforks Are Difficult
+=========
+
+Text of a argument goes here.
+
+### Counter Argument 4.1: The Hardfork Can Be Used To Make Other Useful Changes
+
+Argument5 Pro: 
+=========
+
+Text of a argument goes here.
+
+Argument6 Con: When Would A Hardfork Occur?
+=========
+
+Text of a argument goes here.
 
 Footnotes
 =========
