@@ -1,5 +1,11 @@
 ﻿# BlockSizeDebate
 
+Adding to this document.
+=========
+
+This document is a work in progress. 
+If you are interested in adding to or editing this document please fork it, make your changes and create a pull request.
+
 
 Argument 1 Pro: Increased Transaction Throughput
 =========
