@@ -45,17 +45,21 @@ Pools and Miners in many places have difficulty connecting to some portions of t
 
 Because the change is only made to the *maximum* blocksize, it would not affect resource impact for a long time. This time gap would also give time to implement several bandwidth saving solutions that have been created/theorized specifically to reduce these problems.
 
-### Counter Argument 2.2: Several Large Miners Have Agreed To Adopt A Change
+### Counter Argument 2.2: Decreased node-count is not necessarily increased centralization
+
+Because we would have to trade this off (currently) with [Off-Chain Third Parties](#Offchain), that is also an increase in centralization. So the question is more "Which increases *overall* decentralization?" instead of "Will this decrease decentralization?".
+
+### Counter Argument 2.3: Several Large Miners Have Agreed To Adopt A Change
 
 *2.2.1: Several have also spoken against large changes*<sup>[5](#footnote5)</sup>
 
-### Counter Argument 2.3: Moore's Law (and it's companion laws) will support this in the future
+### Counter Argument 2.4: Moore's Law (and it's companion laws) will support this in the future
 
 *2.3.1: Trusting future hardware innovation is a risky move*
 
 Especially as we move to smaller transistor gaps, where it gets harder and harder to scale.
 
-### Counter Argument 2.4: Satoshi Predicted Node Centralization<sup>[6](#footnote6)</sup>
+### Counter Argument 2.5: Satoshi Predicted Node Centralization<sup>[6](#footnote6)</sup>
 
 *2.4.1: Should we really trust the opinion of one person from 5 years ago?*
 
