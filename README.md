@@ -8,7 +8,7 @@ The chief argument for the increase in blocksize is to raise the total throughpu
 
 ### Counter Argument1.1: Other Scaling Solutions
 
-**1.1a Off-Chain Third Parties**<a name="Offchain"> </a>
+**1.1a Off-Chain Third Parties**<a name="Offchain"></a>
 
 Of the listed solutions, this is the only one implemented today. These would significanly cut down on block size by making the minimal number of transactions, and by condensing the number of inputs/outputs used.
 
@@ -20,21 +20,21 @@ Opening up to third parties allows them to steal from you, and have your funds m
 
 This allows for third parties to more easily collect information on you, and leak<sup>[2](#footnote2)</sup> it. Not only does this open up Bitcoin to regulatory bodies, but also hackers.
 
-**1.1b Lightning Networks/StrawPay**
+**1.1b OpenTransactions**
+
+Content pending research...
+
+**1.1c Lightning Networks/StrawPay**
 
 Each of these are decentralized versions of the above, designed to reduce the amount of trust needed. Using payment channels allows it to use much less room on the blockchain, however, leading to a higher overall transaction rate.
 
-*1.1b.1 Security Concerns*
+*1.1c.1 Security Concerns*
 
-Like with [Off-Chain Third Parties](#Offchain), there are often security concerns sited, such as the ability to steal other parties' funds.<sup>[3](#footnote3)</sup>
+Like with [Off-Chain Third Parties](#Offchain), there are often security concerns sited, such as the ability to steal other parties' funds from Strawpay channels.<sup>[3](#footnote3)</sup>
 
-*1.1b.2 No Current Implementation*
+*1.1c.2 No Current Implementation*
 
-Because there is no current implementation of it, there is no way to be certain this system is a sure solution.
-
-*1.1b.3 Needs Protocol Changes*
-
-This is not a very widely used argument, as it's easily solvable, but it is a hurdle to overcome.
+Because there is no current implementation of it, there is no way it can be used if needed in the near future.
 
 Argument2 Con: Miners/Full Nodes Cannot Handle Expansion
 =========
@@ -75,7 +75,9 @@ Argument4 Con: Hardforks Are Difficult
 
 Text of a argument goes here.
 
-### Counter Argument 4.1: The Hardfork Can Be Used To Make Other Useful Changes
+### Counter Argument 4.1: The last hardfork increasing the block size to 1 MB was performed with merely 2 months notice.<sup>[7](#footnote7)</sup>
+
+### Counter Argument 4.2: The Hardfork Can Be Used To Make Other Useful Changes
 
 Argument5 Pro: Increases Cost Of Block-Based DoS Attack
 =========
@@ -97,7 +99,7 @@ Evidence
 1. [Bitcoin Network Capacity Analysis – Part 1: Macro Block Trends](https://tradeblock.com/blog/bitcoin-network-capacity-analysis-part-1-macro-block-trends)
 
 
-Footnotes
+References
 =========
 
 <a name="footnote1">1</a>: CoinDesk, [http://www.coindesk.com/coinbase-security-concerns-amid-theft-reports/](http://www.coindesk.com/coinbase-security-concerns-amid-theft-reports/)
@@ -111,3 +113,5 @@ Footnotes
 <a name="footnote5">5</a>: Chun Wang, [http://sourceforge.net/p/bitcoin/mailman/message/34157036/](http://sourceforge.net/p/bitcoin/mailman/message/34157036/)
 
 <a name="footnote6">6</a>: Satoshi Nakamoto, [https://bitcointalk.org/index.php?topic=532.msg6269#msg6269](https://bitcointalk.org/index.php?topic=532.msg6269#msg6269)
+
+<a name="footnote6">7</a>: Luke-Jr, [http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3](http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3)
