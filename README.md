@@ -128,7 +128,7 @@ If the block number is greater than X, and Y% of the previous 1000 blocks have t
 Argument 7 Meta: Dynamic Block size limits
 =========
 
-Allow the ability for Bitcoin to dynamically determine block size limits in a method similar to how Bitcoin dynamically regulates hash rate<sup>[9](#footnote11)</sup>. 
+Allow the ability for Bitcoin to dynamically determine block size limits in a method similar to how Bitcoin dynamically regulates hash rate<sup>[11](#footnote11)</sup>. 
 
 
 
