@@ -99,7 +99,23 @@ Increasing the blocksize would allow faster bloating of the UTXO database.<sup>[
 Argument6 Con: When Would A Hardfork Occur?
 =========
 
-Text of a argument goes here.
+Nearly any automated solution will have problems with it, so how can we solve those problems?
+
+### Counter Argument 6.1: Predefined block number
+
+After a certain block number, raise the maximum blocksize to X. This allows for a step function as well, but that is not what is being discussed here.
+
+*6.1.1 This has no way to measure if it would fracture the network*
+
+### Counter Argument 6.2: Adoption threshold
+
+If X% of the previous 1000 blocks have a "v.new" flag, raise the limit.
+
+*6.2.1 This puts a lot of power into the hands of miners*
+
+### Counter Argument 6.3: A Combination Approach
+
+If the block number is greater than X, and Y% of the previous 1000 blocks have the "v.new" flag, raise the blocksize limit.
 
 Evidence 
 =========
