@@ -1,12 +1,12 @@
 # BlockSizeDebate
 
 
-Argument1 Pro: Increased Transaction Throughput
+Argument 1 Pro: Increased Transaction Throughput
 =========
 
 The chief argument for the increase in blocksize is to raise the total throughput of the Bitcoin network from its current ~3 tps. This is most often attributed to an expected spike in adoption.
 
-### Counter Argument1.1: Other Scaling Solutions
+### Counter Argument 1.1: Other Scaling Solutions
 
 **1.1a Off-Chain Third Parties**<a name="Offchain"></a>
 
@@ -36,7 +36,7 @@ Like with [Off-Chain Third Parties](#Offchain), there are often security concern
 
 Because there is no current implementation of it, there is no way it can be used if needed in the near future.
 
-Argument2 Con: Miners/Full Nodes Cannot Handle Expansion
+Argument 2 Con: Miners/Full Nodes Cannot Handle Expansion
 =========
 
 Pools and Miners in many places have difficulty connecting to some portions of the world.<sup>[4](#footnote4)</sup> These barriers of entry would grow larger if the maximum bandwidth of the network increases. In some places it may make it so that they never catch up to the network, further pressuring the centralization of nodes.
@@ -63,14 +63,14 @@ Especially as we move to smaller transistor gaps, where it gets harder and harde
 
 *2.5.1: Should we really trust the opinion of one person from 5 years ago?*
 
-Argument3 Pro: The Limit Was Intended As A Temporary Measure
+Argument 3 Pro: The Limit Was Intended As A Temporary Measure
 =========
 
 ### Counter Argument 3.1: The Limit Will Provide Fee Pressure
 
 ### Counter Argument 3.2: Nothing has been done to fix the original problem since<sup>[7](#footnote7)</sup>
 
-Argument4 Con: Hardforks Are Difficult
+Argument 4 Con: Hardforks Are Difficult
 =========
 
 The less notice there is before a hard fork, the more likely it is to fracture the network into competing chains.
@@ -79,7 +79,7 @@ The less notice there is before a hard fork, the more likely it is to fracture t
 
 ### Counter Argument 4.2: The Hardfork Can Be Used To Make Other Useful Changes
 
-Argument5 Pro: Increases Cost Of Block-Based DoS Attack
+Argument 5 Pro: Increases Cost Of Block-Based DoS Attack
 =========
 
 This can be shown with the following scenario:<sup>[8](#footnote8)</sup>
@@ -96,7 +96,7 @@ Increasing the blocksize would allow faster bloating of the UTXO database.<sup>[
 
 *5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk,<a>[10](#footnote10)</sup> and by storing it more efficiently.*
 
-Argument6 Con: When Would A Hardfork Occur?
+Argument 6 Con: When Would A Hardfork Occur?
 =========
 
 Nearly any automated solution will have problems with it, so how can we solve those problems?
