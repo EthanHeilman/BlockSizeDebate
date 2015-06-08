@@ -122,7 +122,15 @@ If X% of the previous 1000 blocks have a "v.new" flag, raise the limit.
 
 ### Counter Argument 6.3: A Combination Approach
 
-If the block number is greater than X, and Y% of the previous 1000 blocks have the "v.new" flag, raise the blocksize limit.
+If the block number is greater than X, and Y% of the previous 1000 blocks have the "v.new" flag, raise the blocksize limit<a>[11](#footnote10)</sup>.
+
+
+Argument 7 Meta: Dynamic Block size limits
+=========
+
+Allow the ability for Bitcoin to dynamically determine block size limits in a method similar to how Bitcoin dynamically regulates hash rate<sup>[9](#footnote11)</sup>. 
+
+
 
 Evidence 
 =========
@@ -152,3 +160,6 @@ References
 <a name="footnote9">9</a>: /u/sheepiroth, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j)
 
 <a name="footnote10">10</a>: Gavin Andresen, [http://gavinandresen.ninja/utxo-uhoh](http://gavinandresen.ninja/utxo-uhoh)
+
+<a name="footnote11">11</a>: Washington Sanchez, [https://twitter.com/drwasho/status/607687507627548672](https://twitter.com/drwasho/status/607687507627548672)
+
