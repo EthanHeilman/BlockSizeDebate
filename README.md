@@ -51,17 +51,17 @@ Because we would have to trade this off (currently) with [Off-Chain Third Partie
 
 ### Counter Argument 2.3: Several Large Miners Have Agreed To Adopt A Change
 
-*2.2.1: Several have also spoken against large changes*<sup>[5](#footnote5)</sup>
+*2.3.1: Several have also spoken against large changes*<sup>[5](#footnote5)</sup>
 
 ### Counter Argument 2.4: Moore's Law (and it's companion laws) will support this in the future
 
-*2.3.1: Trusting future hardware innovation is a risky move*
+*2.4.1: Trusting future hardware innovation is a risky move*
 
 Especially as we move to smaller transistor gaps, where it gets harder and harder to scale.
 
 ### Counter Argument 2.5: Satoshi Predicted Node Centralization<sup>[6](#footnote6)</sup>
 
-*2.4.1: Should we really trust the opinion of one person from 5 years ago?*
+*2.5.1: Should we really trust the opinion of one person from 5 years ago?*
 
 Argument3 Pro: The Limit Was Intended As A Temporary Measure
 =========
