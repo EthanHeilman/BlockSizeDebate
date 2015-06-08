@@ -51,7 +51,9 @@ Because the change is only made to the *maximum* blocksize, it would not affect 
 
 ### Counter Argument 2.3: Moore's Law (and it's companion laws) will support this in the future
 
-*2.3.1: Trusting future hardware innovation is a risky move, especially as we move to smaller transistor gaps*
+*2.3.1: Trusting future hardware innovation is a risky move*
+
+Especially as we move to smaller transistor gaps, where it gets harder and harder to scale.
 
 ### Counter Argument 2.4: Satoshi Predicted Node Centralization<sup>[6](#footnote6)</sup>
 
