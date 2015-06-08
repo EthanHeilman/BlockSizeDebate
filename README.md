@@ -96,7 +96,7 @@ This is a simplified model that does not take fee markets into account, but it w
 
 Increasing the blocksize would allow faster bloating of the UTXO database.<sup>[9](#footnote9)</sup> Because the ability to change this scales roughly linearly to block size, increasing the blocksize increases the potential bloat rate from a bad actor. This reduces the ability to run a full node significantly, as RAM is an expensive resource to use compared to disk space.
 
-*5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk, and by storing it more efficiently.*
+*5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk,<a>[10](#footnote10)</sup> and by storing it more efficiently.*
 
 Argument6 Con: When Would A Hardfork Occur?
 =========
@@ -130,4 +130,4 @@ References
 
 <a name="footnote9">9</a>: /u/sheepiroth, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j)
 
-
+<a name="footnote10">10</a>: Gavin Andresen, [http://gavinandresen.ninja/utxo-uhoh](http://gavinandresen.ninja/utxo-uhoh)
