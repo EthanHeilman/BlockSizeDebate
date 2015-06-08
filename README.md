@@ -101,7 +101,7 @@ This is a simplified model that does not take fee markets into account, but it w
 
 Increasing the blocksize would allow faster bloating of the UTXO database.<sup>[9](#footnote9)</sup> Because the ability to change this scales roughly linearly to block size, increasing the blocksize increases the potential bloat rate from a bad actor. This reduces the ability to run a full node significantly, as RAM is an expensive resource to use compared to disk space.
 
-*5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk,<a>[10](#footnote10)</sup> and by storing it more efficiently.*
+*5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk,<sup>[10](#footnote10)</sup> and by storing it more efficiently.*
 
 Argument 6 Con: When Would A Hardfork Occur?
 =========
@@ -122,7 +122,7 @@ If X% of the previous 1000 blocks have a "v.new" flag, raise the limit.
 
 ### Counter Argument 6.3: A Combination Approach
 
-If the block number is greater than X, and Y% of the previous 1000 blocks have the "v.new" flag, raise the blocksize limit<a>[11](#footnote10)</sup>.
+If the block number is greater than X, and Y% of the previous 1000 blocks have the "v.new" flag, raise the blocksize limit<sup>[10](#footnote10)</sup>.
 
 
 Argument 7 Meta: Dynamic Block size limits
