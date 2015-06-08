@@ -4,19 +4,19 @@
 Argument 1 Pro: Increased Transaction Throughput
 =========
 
-The chief argument for the increase in blocksize is to raise the total throughput of the Bitcoin network from its current ~3 tps. This is most often attributed to an expected spike in adoption.
+The chief argument for the increase in the maximum blocksize is to help the protocol address scalability issues, specifically by raising the total throughput of the Bitcoin network from its current ~3 tps (transactions per second) to something higher. This is most often attributed to an expected spike in adoption.
 
 ### Counter Argument 1.1: Other Scaling Solutions
 
 **1.1a Off-Chain Third Parties**<a name="Offchain"> </a>
 
-Of the listed solutions, this is the only one implemented today. These would significanly cut down on block size by making the minimal number of transactions, and by condensing the number of inputs/outputs used.
+Of the listed solutions, this is the only one that is implemented today. The use of such Third Parties could significanly reduce both the rate of blocksize increase and the average blocksize itself by reducing the number of on-blockchain transactions, and by condensing the number of inputs/outputs used.
 
-*1.1a.1 Security Concerns*
+*1.1a.1 Security Concerns of Off-Chain Third Parties*
 
-Opening up to third parties allows them to steal from you, and have your funds more easily hacked.<sup>[1](#footnote1)</sup> 
+However, opening up to third parties allows them to potentially  steal from you, and have your funds more easily hacked.<sup>[1](#footnote1)</sup> 
 
-*1.1a.2 Privacy Concerns*
+*1.1a.2 Privacy Concerns with Off-CHain Third Parties*
 
 This allows for third parties to more easily collect information on you, and leak<sup>[2](#footnote2)</sup> it. Not only does this open up Bitcoin to regulatory bodies, but also hackers.
 
@@ -30,7 +30,7 @@ Like with [Off-Chain Third Parties](#Offchain), there are often security concern
 
 *1.1b.2 No Current Implementation*
 
-Because there is no current implementation of it, there is no way to be certain this system is a sure solution.
+Because there is no current implementation of it, there is no way to be certain this system is a workable solution.
 
 *1.1b.3 Needs Protocol Changes*
 
@@ -39,13 +39,13 @@ This is not a very widely used argument, as it's easily solvable, but it is a hu
 Argument 2 Con: Miners/Full Nodes Cannot Handle Expansion
 =========
 
-Pools and Miners in many places have difficulty connecting to some portions of the world.<sup>[4](#footnote4)</sup> These barriers of entry would grow larger if the maximum bandwidth of the network increases. In some places it may make it so that they never catch up to the network, further pressuring the centralization of nodes.
+Pools and Miners in some places of the world have difficulty connecting to some portions of the Internet.<sup>[4](#footnote4)</sup> These barriers of entry would grow larger if the maximum bandwidth of the network increases. In some places larger maximum blocksizes may make it so that they never catch up to the network, further pressuring the centralization of nodes and hashrate. Though not a Bitcoin protocol issue, it is unclear how the increase in maximum blocksize might effect existing hardware based on older maximum blocksize assumption. 
 
-### Counter Argument 2.1: Resource Impact not immediate
+### Counter Argument 2.1: Resource Impact not Immediate
 
-Because the change is only made to the *maximum* blocksize, it would not affect resource impact for a long time. This time gap would also give time to implement several bandwidth saving solutions that have been created/theorized specifically to reduce these problems.
+Because the change is only made to the *maximum* blocksize, it would not introduce an immediate resource impact. This time gap would also give time to implement several bandwidth saving solutions that have been created/theorized specifically to reduce these problems.
 
-### Counter Argument 2.2: Decreased node-count is not necessarily increased centralization
+### Counter Argument 2.2: Decreased node-count is not necessarily increased Centralization
 
 Because we would have to trade this off (currently) with [Off-Chain Third Parties](#Offchain), that is also an increase in centralization. So the question is more "Which increases *overall* decentralization?" instead of "Will this decrease decentralization?".
 
@@ -53,11 +53,11 @@ Because we would have to trade this off (currently) with [Off-Chain Third Partie
 
 *2.2.1: Several have also spoken against large changes*<sup>[5](#footnote5)</sup>
 
-### Counter Argument 2.4: Moore's Law (and it's companion laws) will support this in the future
+### Counter Argument 2.4: Moore's Law (and its companion laws) will support this in the future
 
 *2.3.1: Trusting future hardware innovation is a risky move*
 
-Especially as we move to smaller transistor gaps, where it gets harder and harder to scale.
+Especially as we move to smaller transistor gaps, where it gets harder and harder to scale the hashrate by relying on harvdware performace improvements due to better chip fabrication techniques (e.g. beyond 16nm) 
 
 ### Counter Argument 2.5: Satoshi Predicted Node Centralization<sup>[6](#footnote6)</sup>
 
