@@ -70,6 +70,8 @@ Text of a argument goes here.
 
 ### Counter Argument 3.1: The Limit Will Provide Fee Pressure
 
+### Counter Argument 3.2: Nothing has been done to fix the original problem since<sup>[7](#footnote7)</sup>
+
 Argument4 Con: Hardforks Are Difficult
 =========
 
