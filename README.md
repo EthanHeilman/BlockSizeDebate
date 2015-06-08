@@ -39,17 +39,23 @@ This is not a very widely used argument, as it's easily solvable, but it is a hu
 Argument2 Con: Miners/Full Nodes Cannot Handle Expansion
 =========
 
-Text of a argument goes here.
+Pools and Miners in many places have difficulty connecting to some portions of the world.<sup>[4](#footnote4)</sup> These barriers of entry would grow larger if the maximum bandwidth of the network increases. In some places it may make it so that they never catch up to the network, further pressuring the centralization of nodes.
 
 ### Counter Argument 2.1: Resource Impact not immediate
 
+Because the change is only made to the *maximum* blocksize, it would not affect resource impact for a long time. This time gap would also give time to implement several bandwidth saving solutions that have been created/theorized specifically to reduce these problems.
+
 ### Counter Argument 2.2: Several Large Miners Have Agreed To Adopt A Change
 
-*2.2.1: Several have also spoken against large changes*
+*2.2.1: Several have also spoken against large changes*<sup>[5](#footnote5)</sup>
 
 ### Counter Argument 2.3: Moore's Law (and it's companion laws) will support this in the future
 
-### Counter Argument 2.4: Satoshi Predicted Node Centralization
+*2.3.1: Trusting future hardware innovation is a risky move, especially as we move to smaller transistor gaps*
+
+### Counter Argument 2.4: Satoshi Predicted Node Centralization<sup>[6](#footnote6)</sup>
+
+*2.4.1: Should we really trust the opinion of one person from 5 years ago?*
 
 Argument3 Pro: The Limit Was Intended As A Temporary Measure
 =========
@@ -88,4 +94,10 @@ Footnotes
 
 <a name="footnote2">2</a>: CoinDesk, [http://www.coindesk.com/coinbase-denies-reports-data-breach-addresses-security-concerns/](http://www.coindesk.com/coinbase-denies-reports-data-breach-addresses-security-concerns/)
 
-<a name="footnote2">3</a>: Mike Hearn, [https://medium.com/@octskyward/the-capacity-cliff-586d1bf7715e#3555](https://medium.com/@octskyward/the-capacity-cliff-586d1bf7715e#3555)
+<a name="footnote3">3</a>: Mike Hearn, [https://medium.com/@octskyward/the-capacity-cliff-586d1bf7715e#3555](https://medium.com/@octskyward/the-capacity-cliff-586d1bf7715e#3555)
+
+<a name="footnote4">4</a>: Wikipedia, [http://en.wikipedia.org/wiki/Internet_in_China#Structure](http://en.wikipedia.org/wiki/Internet_in_China#Structure)
+
+<a name="footnote5">5</a>: Chun Wang, [http://sourceforge.net/p/bitcoin/mailman/message/34157036/](http://sourceforge.net/p/bitcoin/mailman/message/34157036/)
+
+<a name="footnote6">6</a>: Satoshi Nakamoto, [https://bitcointalk.org/index.php?topic=532.msg6269#msg6269](https://bitcointalk.org/index.php?topic=532.msg6269#msg6269)
