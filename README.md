@@ -66,8 +66,6 @@ Especially as we move to smaller transistor gaps, where it gets harder and harde
 Argument3 Pro: The Limit Was Intended As A Temporary Measure
 =========
 
-Text of a argument goes here.
-
 ### Counter Argument 3.1: The Limit Will Provide Fee Pressure
 
 ### Counter Argument 3.2: Nothing has been done to fix the original problem since<sup>[7](#footnote7)</sup>
@@ -75,7 +73,7 @@ Text of a argument goes here.
 Argument4 Con: Hardforks Are Difficult
 =========
 
-Text of a argument goes here.
+The less notice there is before a hard fork, the more likely it is to fracture the network into competing chains.
 
 ### Counter Argument 4.1: The last hardfork increasing the block size to 1 MB was performed with merely 2 months notice.<sup>[7](#footnote7)</sup>
 
