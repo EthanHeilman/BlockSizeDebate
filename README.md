@@ -73,10 +73,14 @@ Text of a argument goes here.
 
 ### Counter Argument 4.1: The Hardfork Can Be Used To Make Other Useful Changes
 
-Argument5 Pro: 
+Argument5 Pro: Increases Cost Of Block-Based DoS Attack
 =========
 
 Text of a argument goes here.
+
+### Counter Argument 5.1: Reduces the cost of a UTXO-based DoS Attack
+
+*5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk, and by storing it more efficiently.*
 
 Argument6 Con: When Would A Hardfork Occur?
 =========
