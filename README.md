@@ -84,9 +84,17 @@ Text of a argument goes here.
 Argument5 Pro: Increases Cost Of Block-Based DoS Attack
 =========
 
-Text of a argument goes here.
+This can be shown with the following scenario:<sup>[8](#footnote8)</sup>
+
+Assume blocks are currently 90% full, and fees are 1 unit per kB. At the current blocksize it would take 1,200 units/hour to block 10% of transactions, and 10,000 units/hour to block *all* transactions.
+
+Under a new blocksize (let's assume 20MB), it would take 115,200 units/hour to block 10% of transactions, and 120,000 to block all transactions.
+
+This is a simplified model that does not take fee markets into account, but it would make transacting much more difficult whether fee markets were used or not.
 
 ### Counter Argument 5.1: Reduces the cost of a UTXO-based DoS Attack
+
+Increasing the blocksize would allow faster bloating of the UTXO database.<sup>[9](#footnote9)</sup> Because the ability to change this scales roughly linearly to block size, increasing the blocksize increases the potential bloat rate from a bad actor. This reduces the ability to run a full node significantly, as RAM is an expensive resource to use compared to disk space.
 
 *5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk, and by storing it more efficiently.*
 
@@ -116,4 +124,10 @@ References
 
 <a name="footnote6">6</a>: Satoshi Nakamoto, [https://bitcointalk.org/index.php?topic=532.msg6269#msg6269](https://bitcointalk.org/index.php?topic=532.msg6269#msg6269)
 
-<a name="footnote6">7</a>: Luke-Jr, [http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3](http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3)
+<a name="footnote7">7</a>: Luke-Jr, [http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3](http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3)
+
+<a name="footnote8">8</a>: /u/IntroShine, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/)
+
+<a name="footnote9">9</a>: /u/sheepiroth, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j)
+
+
