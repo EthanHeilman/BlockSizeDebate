@@ -68,7 +68,7 @@ Because we would have to trade this off (currently) with [Off-Chain Third Partie
 
 *2.4.1: Trusting future hardware innovation is a risky move*
 
-Especially as we move to smaller transistor gaps, where it gets harder and harder to scale the hashrate by relying on harvdware performace improvements due to better chip fabrication techniques (e.g. beyond 16nm) 
+Especially as Bitcoin is supposed to serve *all*, some of which has not yet experienced the growth in bandwidth predicted by Nielsen's Law. This argument may work for storage (and thus far has seemed to), but propogation time of blocks, as well as total download time, will likely outstrip Nielsen's law with any major increase.
 
 ### Counter Argument 2.5: Satoshi Predicted Node Centralization<sup>[6](#footnote6)</sup>
 
