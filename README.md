@@ -30,16 +30,20 @@ This allows for third parties to more easily collect information on you, and lea
 
 Content pending research...
 
-**1.1c Lightning Networks/StrawPay**
+**1.1c Sidechains**
+
+Content pending research...
+
+**1.1d Lightning Networks/StrawPay**
 
 Each of these are decentralized versions of the above, designed to reduce the amount of trust needed. Using payment channels allows it to use much less room on the blockchain, however, leading to a higher overall transaction rate.
 
-*1.1c.1 Security Concerns*
+*1.1d.1 Security Concerns*
 
 Like with [Off-Chain Third Parties](#Offchain), there are often security concerns sited, such as the ability to steal other parties' funds from Strawpay channels.<sup>[3](#footnote3)</sup>
 
 
-*1.1c.2 No Current Implementation*
+*1.1d.2 No Current Implementation*
 
 Because there is no current implementation of it, there is no way to be certain this system is a workable solution.
 
