@@ -1,5 +1,11 @@
 ﻿# BlockSizeDebate
 
+Adding to this document.
+=========
+
+This document is a work in progress. 
+If you are interested in adding to or editing this document please fork it, make your changes and create a pull request.
+
 
 Argument 1 Pro: Increased Transaction Throughput
 =========
@@ -95,7 +101,7 @@ This is a simplified model that does not take fee markets into account, but it w
 
 Increasing the blocksize would allow faster bloating of the UTXO database.<sup>[9](#footnote9)</sup> Because the ability to change this scales roughly linearly to block size, increasing the blocksize increases the potential bloat rate from a bad actor. This reduces the ability to run a full node significantly, as RAM is an expensive resource to use compared to disk space.
 
-*5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk,<a>[10](#footnote10)</sup> and by storing it more efficiently.*
+*5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk,<sup>[10](#footnote10)</sup> and by storing it more efficiently.*
 
 Argument 6 Con: When Would A Hardfork Occur?
 =========
@@ -116,7 +122,15 @@ If X% of the previous 1000 blocks have a "v.new" flag, raise the limit.
 
 ### Counter Argument 6.3: A Combination Approach
 
-If the block number is greater than X, and Y% of the previous 1000 blocks have the "v.new" flag, raise the blocksize limit.
+If the block number is greater than X, and Y% of the previous 1000 blocks have the "v.new" flag, raise the blocksize limit<sup>[10](#footnote10)</sup>.
+
+
+Argument 7 Meta: Dynamic Block size limits
+=========
+
+Allow the ability for Bitcoin to dynamically determine block size limits in a method similar to how Bitcoin dynamically regulates hash rate<sup>[11](#footnote11)</sup>. 
+
+
 
 Evidence 
 =========
@@ -146,3 +160,6 @@ References
 <a name="footnote9">9</a>: /u/sheepiroth, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j)
 
 <a name="footnote10">10</a>: Gavin Andresen, [http://gavinandresen.ninja/utxo-uhoh](http://gavinandresen.ninja/utxo-uhoh)
+
+<a name="footnote11">11</a>: Washington Sanchez, [https://twitter.com/drwasho/status/607687507627548672](https://twitter.com/drwasho/status/607687507627548672)
+
