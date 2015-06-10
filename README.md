@@ -30,16 +30,20 @@ This allows for third parties to more easily collect information on you, and lea
 
 Content pending research...
 
-**1.1c Lightning Networks/StrawPay**
+**1.1c Sidechains**
+
+Content pending research...
+
+**1.1d Lightning Networks/StrawPay**
 
 Each of these are decentralized versions of the above, designed to reduce the amount of trust needed. Using payment channels allows it to use much less room on the blockchain, however, leading to a higher overall transaction rate.
 
-*1.1c.1 Security Concerns*
+*1.1d.1 Security Concerns*
 
 Like with [Off-Chain Third Parties](#Offchain), there are often security concerns sited, such as the ability to steal other parties' funds from Strawpay channels.<sup>[3](#footnote3)</sup>
 
 
-*1.1c.2 No Current Implementation*
+*1.1d.2 No Current Implementation*
 
 Because there is no current implementation of it, there is no way to be certain this system is a workable solution.
 
@@ -64,7 +68,7 @@ Because we would have to trade this off (currently) with [Off-Chain Third Partie
 
 *2.4.1: Trusting future hardware innovation is a risky move*
 
-Especially as we move to smaller transistor gaps, where it gets harder and harder to scale the hashrate by relying on harvdware performace improvements due to better chip fabrication techniques (e.g. beyond 16nm) 
+Especially as Bitcoin is supposed to serve *all*, some of which has not yet experienced the growth in bandwidth predicted by Nielsen's Law. This argument may work for storage (and thus far has seemed to), but propogation time of blocks, as well as total download time, will likely outstrip Nielsen's law with any major increase.
 
 ### Counter Argument 2.5: Satoshi Predicted Node Centralization<sup>[6](#footnote6)</sup>
 
@@ -130,7 +134,25 @@ Argument 7 Meta: Dynamic Block size limits
 
 Allow the ability for Bitcoin to dynamically determine block size limits in a method similar to how Bitcoin dynamically regulates hash rate<sup>[11](#footnote11)</sup>. 
 
+### Counter Argument 7.1: Formula Manipulation
 
+Any set formula can be manipulated by attackers and miners, making the network more fragile.
+
+### Counter Argument 7.2: Fine Tuning
+
+Any formula will by definition create political decisions. Most proposed formulas are using the median block size, making a simple majority decide to raise or lower the block size. Problem with this is that because most blocks are found in less than ten minutes<sup>[12](#footnote12)</sup>, the median block size will by necessity be smaller than the mean block size (blocks after more time are more likely to have a transaction backlog).
+
+If you use the proposed multiplier (Max_size = 2 * median (last 144 blocks)), then you have more pressure to smaller blocks (rather than the 50% + 1 it was proposed as).
+
+### Counter Argument 7.3: Possible Disagreements Caused By Short-Term Forks
+
+There is a ***small*** possibility of the following scenario:
+
+A node accepts a block which pushes the new Max_size down to 749kB. This node then recieves a longer chain (2 blocks) where the first has a size of 750kB. The node would then reject the longer chain because of the Max_size from the first node, making the possibility of automatic, accidental hard forks.
+
+*7.3.1: Calculate based on previous blocks*
+
+Simple solution to the above would be to calculate the hashrate based on [x-6,x-150), where x is the current height.
 
 Evidence 
 =========
@@ -163,3 +185,4 @@ References
 
 <a name="footnote11">11</a>: Washington Sanchez, [https://twitter.com/drwasho/status/607687507627548672](https://twitter.com/drwasho/status/607687507627548672)
 
+<a name="footnote12">12</a>: Matt Springer, [http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png](http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png)
