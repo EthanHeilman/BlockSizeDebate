@@ -90,10 +90,12 @@ The less notice there is before a hard fork, the more likely it is to fracture t
 
 ### Counter Argument 4.2: The Hardfork Can Be Used To Make Other Useful Changes
 
-Argument 5 Pro: Increases Cost Of Block-Based DoS Attack
+Argument 5 Pro: Increases Cost Of Transaction Flooding Block Monopolization Attack
 =========
 
-This can be shown with the following scenario:<sup>[8](#footnote8)</sup>
+The attack considered here is one in which the attacker generates a large number of transaction fees with high enough transaction fees so that the attack transactions will use all avaliabl;e block space preventing non-attacker transactions from being confirmed. The bitcoin wiki refers to this attack as a transaction flooding[8](#footnote8).
+
+This can be shown with the following scenario:<sup>[9](#footnote9)</sup>
 
 Assume blocks are currently 90% full, and fees are 1 unit per kB. At the current blocksize it would take 1,200 units/hour to block 10% of transactions, and 10,000 units/hour to block *all* transactions.
 
@@ -103,9 +105,9 @@ This is a simplified model that does not take fee markets into account, but it w
 
 ### Counter Argument 5.1: Reduces the cost of a UTXO-based DoS Attack
 
-Increasing the blocksize would allow faster bloating of the UTXO database.<sup>[9](#footnote9)</sup> Because the ability to change this scales roughly linearly to block size, increasing the blocksize increases the potential bloat rate from a bad actor. This reduces the ability to run a full node significantly, as RAM is an expensive resource to use compared to disk space.
+Increasing the blocksize would allow faster bloating of the UTXO database.<sup>[9](#footnote10)</sup> Because the ability to change this scales roughly linearly to block size, increasing the blocksize increases the potential bloat rate from a bad actor. This reduces the ability to run a full node significantly, as RAM is an expensive resource to use compared to disk space.
 
-*5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk,<sup>[10](#footnote10)</sup> and by storing it more efficiently.*
+*5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk,<sup>[11](#footnote11)</sup> and by storing it more efficiently.*
 
 Argument 6 Con: When Would A Hardfork Occur?
 =========
@@ -132,7 +134,7 @@ If the block number is greater than X, and Y% of the previous 1000 blocks have t
 Argument 7 Meta: Dynamic Block size limits
 =========
 
-Allow the ability for Bitcoin to dynamically determine block size limits in a method similar to how Bitcoin dynamically regulates hash rate<sup>[11](#footnote11)</sup>. 
+Allow the ability for Bitcoin to dynamically determine block size limits in a method similar to how Bitcoin dynamically regulates hash rate<sup>[12](#footnote12)</sup>. 
 
 ### Counter Argument 7.1: Formula Manipulation
 
@@ -140,7 +142,7 @@ Any set formula can be manipulated by attackers and miners, making the network m
 
 ### Counter Argument 7.2: Fine Tuning
 
-Any formula will by definition create political decisions. Most proposed formulas are using the median block size, making a simple majority decide to raise or lower the block size. Problem with this is that because most blocks are found in less than ten minutes<sup>[12](#footnote12)</sup>, the median block size will by necessity be smaller than the mean block size (blocks after more time are more likely to have a transaction backlog).
+Any formula will by definition create political decisions. Most proposed formulas are using the median block size, making a simple majority decide to raise or lower the block size. Problem with this is that because most blocks are found in less than ten minutes<sup>[13](#footnote13)</sup>, the median block size will by necessity be smaller than the mean block size (blocks after more time are more likely to have a transaction backlog).
 
 If you use the proposed multiplier (Max_size = 2 * median (last 144 blocks)), then you have more pressure to smaller blocks (rather than the 50% + 1 it was proposed as).
 
@@ -177,12 +179,16 @@ References
 
 <a name="footnote7">7</a>: Luke-Jr, [http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3](http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3)
 
-<a name="footnote8">8</a>: /u/IntroShine, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/)
+<a name="footnote8"></a>: Bitcoin Wiki,
+[https://en.bitcoin.it/wiki/Flood_attack](https://en.bitcoin.it/wiki/Flood_attack)
 
-<a name="footnote9">9</a>: /u/sheepiroth, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j)
+<a name="footnote9">8</a>: /u/IntroShine, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/)
 
-<a name="footnote10">10</a>: Gavin Andresen, [http://gavinandresen.ninja/utxo-uhoh](http://gavinandresen.ninja/utxo-uhoh)
+<a name="footnote10">9</a>: /u/sheepiroth, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j)
 
-<a name="footnote11">11</a>: Washington Sanchez, [https://twitter.com/drwasho/status/607687507627548672](https://twitter.com/drwasho/status/607687507627548672)
+<a name="footnote11">10</a>: Gavin Andresen, [http://gavinandresen.ninja/utxo-uhoh](http://gavinandresen.ninja/utxo-uhoh)
 
-<a name="footnote12">12</a>: Matt Springer, [http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png](http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png)
+<a name="footnote12">11</a>: Washington Sanchez, [https://twitter.com/drwasho/status/607687507627548672](https://twitter.com/drwasho/status/607687507627548672)
+
+<a name="footnote13">12</a>: Matt Springer, [http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png](http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png)
+
