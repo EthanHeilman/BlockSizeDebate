@@ -179,16 +179,16 @@ References
 
 <a name="footnote7">7</a>: Luke-Jr, [http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3](http://www.reddit.com/r/Bitcoin/comments/38wpjn/i_know_transactions_per_second_is_a_sore_spot_but/cryzi6v?context=3)
 
-<a name="footnote8"></a>: Bitcoin Wiki,
+<a name="footnote8">8</a>: Bitcoin Wiki,
 [https://en.bitcoin.it/wiki/Flood_attack](https://en.bitcoin.it/wiki/Flood_attack)
 
-<a name="footnote9">8</a>: /u/IntroShine, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/)
+<a name="footnote9">9</a>: /u/IntroShine, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/)
 
-<a name="footnote10">9</a>: /u/sheepiroth, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j)
+<a name="footnote10">10</a>: /u/sheepiroth, [http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j](http://www.reddit.com/r/Bitcoin/comments/37790q/some_say_raising_the_blocksize_from_1mb_to_20mb/crkcu6j)
 
-<a name="footnote11">10</a>: Gavin Andresen, [http://gavinandresen.ninja/utxo-uhoh](http://gavinandresen.ninja/utxo-uhoh)
+<a name="footnote11">11</a>: Gavin Andresen, [http://gavinandresen.ninja/utxo-uhoh](http://gavinandresen.ninja/utxo-uhoh)
 
-<a name="footnote12">11</a>: Washington Sanchez, [https://twitter.com/drwasho/status/607687507627548672](https://twitter.com/drwasho/status/607687507627548672)
+<a name="footnote12">12</a>: Washington Sanchez, [https://twitter.com/drwasho/status/607687507627548672](https://twitter.com/drwasho/status/607687507627548672)
 
-<a name="footnote13">12</a>: Matt Springer, [http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png](http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png)
+<a name="footnote13">13</a>: Matt Springer, [http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png](http://scienceblogs.com/builtonfacts/files/2014/01/bitcoin2.png)
 
