@@ -93,7 +93,7 @@ The less notice there is before a hard fork, the more likely it is to fracture t
 Argument 5 Pro: Increases Cost Of Transaction Flooding Block Monopolization Attack
 =========
 
-The attack considered here is one in which the attacker generates a large number of transaction fees with high enough transaction fees so that the attack transactions will use all avaliabl;e block space preventing non-attacker transactions from being confirmed. The bitcoin wiki refers to this attack as a transaction flooding[8](#footnote8).
+The attack considered here is one in which the attacker generates a large number of transaction fees with high enough transaction fees so that the attack transactions will use all avaliabl;e block space preventing non-attacker transactions from being confirmed. The bitcoin wiki refers to this attack as a transaction flooding<sup>[8](#footnote8)</sup>.
 
 This can be shown with the following scenario:<sup>[9](#footnote9)</sup>
 
