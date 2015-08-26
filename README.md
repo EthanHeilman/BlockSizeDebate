@@ -47,6 +47,7 @@ Like with [Off-Chain Third Parties](#Offchain), there are often security concern
 
 Because there is no current implementation of it, there is no way to be certain this system is a workable solution.
 
+
 Argument 2 Con: Miners/Full Nodes Cannot Handle Expansion
 =========
 
@@ -74,12 +75,14 @@ Especially as Bitcoin is supposed to serve *all*, some of which has not yet expe
 
 *2.5.1: Should we really trust the opinion of one person from 5 years ago?*
 
+
 Argument 3 Pro: The Limit Was Intended As A Temporary Measure
 =========
 
 ### Counter Argument 3.1: The Limit Will Provide Fee Pressure
 
 ### Counter Argument 3.2: Nothing has been done to fix the original problem since<sup>[7](#footnote7)</sup>
+
 
 Argument 4 Con: Hardforks Are Difficult
 =========
@@ -89,6 +92,7 @@ The less notice there is before a hard fork, the more likely it is to fracture t
 ### Counter Argument 4.1: The last hardfork increasing the block size to 1 MB was performed with merely 2 months notice.<sup>[7](#footnote7)</sup>
 
 ### Counter Argument 4.2: The Hardfork Can Be Used To Make Other Useful Changes
+
 
 Argument 5 Pro: Increases Cost Of Transaction Flooding Block Monopolization Attack
 =========
@@ -108,6 +112,7 @@ This is a simplified model that does not take fee markets into account, but it w
 Increasing the blocksize would allow faster bloating of the UTXO database.<sup>[9](#footnote10)</sup> Because the ability to change this scales roughly linearly to block size, increasing the blocksize increases the potential bloat rate from a bad actor. This reduces the ability to run a full node significantly, as RAM is an expensive resource to use compared to disk space.
 
 *5.1.1 The effect of this can be dramatically reduced by storing the UTXO database on disk,<sup>[11](#footnote11)</sup> and by storing it more efficiently.*
+
 
 Argument 6 Con: When Would A Hardfork Occur?
 =========
@@ -155,6 +160,31 @@ A node accepts a block which pushes the new Max_size down to 749kB. This node th
 *7.3.1: Calculate based on previous blocks*
 
 Simple solution to the above would be to calculate the hashrate based on [x-6,x-150), where x is the current height.
+
+
+Argument 8 Con: A Block Size Increases Would Lead to a Maximum Cap Increase
+=========
+
+Source: [1](https://twitter.com/jonmatonis/status/611844197331693568), [2](https://medium.com/@twobitidiot/the-21mm-btc-soft-cap-71e14cd09946), [3](https://medium.com/@anarchoass/economic-concerns-over-the-bitcoin-xt-hard-fork-203dbb4f67c6)
+
+Increasing the block size with the goal of scaling the blockchain is the same reasoning someone would argue for an increase in the maximum 21 million block limit.
+
+### Counter Argument 8.1: No Is Sugesting That
+
+No one advocating for a rise in the block size is advocating for a raising the block limit.
+
+### Counter Argument 8.2: Sure, on an Altcoin Alterative
+
+Any change on the total block limit would amount to an altcoin.
+
+### Counter Argument 8.3: The Block Limit is Sacrosanct.
+
+The block limit is regarded as too important or valuable to be interfered with.
+
+### Counter Argument 8.4: Slippery Slope argument
+
+Pointing this out is sufficient to logically counter the argument.
+
 
 Evidence 
 =========
